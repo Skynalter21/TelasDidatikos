@@ -1,0 +1,66 @@
+.register-parent{
+    height: 100%;
+    padding: 0 2%;
+    background:  #f9fafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 750px;
+}
+
+.register{
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+.register button{
+    width: 100%;
+    background: linear-gradient(135deg,#6e8efb,#a777e3);
+    border: none;
+    margin-top: 10px;
+}
+
+.register button:hover{
+    color: #fff;
+    transform: scale(1.05);
+    transition:0.2 ;
+
+}
+
+register-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+register-title{
+    width: 50px;
+    height: 50px;
+     
+}
+
+.register .form-group label{
+    font-size: 14px;
+
+}
+
+.register .form-group input{
+    font-size: 12px;
+}
+
+@media screen and (max-width:1284px){
+    .imagem-container {
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+
+}
